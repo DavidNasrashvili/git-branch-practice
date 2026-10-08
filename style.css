@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+header {
+    background-color: mediumseagreen;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    overflow: hidden; 
+    border-radius: 8px;
+}
+
+header h2 {
+    float: left;
+    margin: 0;
+    color: white;
+}
+
+header nav {
+    float: right;
+    margin-top: 5px;
+}
+
+header nav a {
+    color: purple;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.main {
+    width: 68%;
+    float: left;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 28%;
+    float: right;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
