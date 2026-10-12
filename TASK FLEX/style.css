@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1, .card2, .card3 {
+    background-color: rgb(16, 134, 134);
+    flex: 1;       
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    }
+    .card1 h2, .card2 h2, .card3 h2{
+        font-size: 25px;
+        color: rgb(167, 128, 0);
+        font-weight: bold;
+        text-align: center;
+    }
+    .card1 button, .card2 button, .card3 button{
+        background-color: chartreuse;
+    }
+    .card1 button:hover, .card2 button:hover, .card3 button:hover{
+        background-color: aqua;
+
+    }
+    .card1 p, .card2 p, .card3 p{
+        color: darkred;
+        font-size: 18px;
+        text-align: center;
+    }
+    .navigacia{
+        display: flex;
+        flex: 1;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 35px;
+        border: 1px solid black;
+    }
